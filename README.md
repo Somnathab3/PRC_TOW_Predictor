@@ -587,11 +587,11 @@ To reproduce the results or use this approach for your own datasets:
    - Ensure you have access to the datasets with the necessary features.
 
 2. **Run the Training Script**:
-   - Execute the `model_training.py` script to train the group-specific and global models.
+   - Execute the `Models.py` script to train the group-specific and global models.
    - The script will save the trained models and initial predictions.
 
 3. **Run the RMSE Calculation and Weighting Script**:
-   - Execute the `rmse_weighting.py` script to calculate the RMSE for each group and apply inverse RMSE weighting.
+   - Execute the `Inverse RMSE.py` script to calculate the RMSE for each group and apply inverse RMSE weighting.
    - The script will generate the final TOW predictions.
 
 4. **Evaluate the Results**:
